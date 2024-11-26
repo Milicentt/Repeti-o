@@ -1,0 +1,23 @@
+<script>
+    //74) Faça um algoritmo que conte de 1 a 100 e a cada múltiplo de 10 emita uma mensagem:“Múltiplo de 10”.
+
+    //For (Para) = Sabe o ponto de parada (Limite/Tamanho)
+    //While (Enquanto) = Quando você não sabe o ponto de parada
+    // Cont++ = cont + 1 ou Cont-- = cont - 1
+
+    function conteMultiplo() {
+        let respota = ""
+        for (let cont = 1; cont <= 100; cont++) {
+            if (cont % 10 == 0) {
+                resposta += cont + " (multiplo de 10)<br> "
+            } else {
+            
+            resposta += cont + "<br>"
+            }
+        }
+        return resposta
+    }
+    
+    //saida
+    document.write("Mostar os numeros")
+</script>
